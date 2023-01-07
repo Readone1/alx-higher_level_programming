@@ -1,56 +1,60 @@
-This is the ``5-text_indentation`` module
+'''
 
-=========================================
+# Import the required function
+
+>>> from importlib import import_module
+
+>>> text_indentation = import_module('5-text_indentation').text_indentation
 
 
 
-Using ``text_indentation`` function
+# Valid arguments
 
------------------------------------
+>>> text_indentation('Is there anyone who loves pain itself? \t\t\t          who seeks after it and wants to have it? simply because it is pain?')
 
->>> text_indentation = __import__('5-text_indentation').text_indentation
-
->>> text_indentation("")
-
->>> text_indentation("lorem.  ipsum  ")
-
-lorem.
+Is there anyone who loves pain itself?
 
 <BLANKLINE>
 
-ipsum
-
->>> text_indentation(2)
-
-Traceback (most recent call last):
-
-	...
-
-TypeError: text must be a string
-
->>> text_indentation(" lorem")
-
-lorem
-
->>> text_indentation("lorem ipsum. lorem.  ")
-
-lorem ipsum.
+who seeks after it and wants to have it?
 
 <BLANKLINE>
 
-lorem.
+simply because it is pain?
 
 <BLANKLINE>
 
->>> text_indentation(".")
+>>> text_indentation('Is there anyone \n\t\t  who loves pain itself? \t\t\t          who seeks after it and wants to have it? simply because it is pain?')
 
-.
+Is there anyone
+
+who loves pain itself?
 
 <BLANKLINE>
 
->>> text_indentation(".?:")
+who seeks after it and wants to have it?
 
-.
+<BLANKLINE>
+
+simply because it is pain?
+
+<BLANKLINE>
+
+>>> text_indentation('\nIs there anyone \n\t\t  who loves pain itself?')
+
+<BLANKLINE>
+
+Is there anyone
+
+who loves pain itself?
+
+<BLANKLINE>
+
+>>> text_indentation('\nIs there any.?\none \n\t\t  who loves pain itself?')
+
+<BLANKLINE>
+
+Is there any.
 
 <BLANKLINE>
 
@@ -58,6 +62,38 @@ lorem.
 
 <BLANKLINE>
 
-:
+<BLANKLINE>
+
+one
+
+who loves pain itself?
 
 <BLANKLINE>
+
+
+
+# Invalid arguments
+
+>>> try:
+
+...     text_indentation(45)
+
+... except TypeError as ex:
+
+...     print(ex.args[0])
+
+text must be a string
+
+>>> try:
+
+...     text_indentation(b'What?He was 22.')
+
+... except TypeError as ex:
+
+...     print(ex.args[0])
+
+text must be a string
+
+
+
+'''
