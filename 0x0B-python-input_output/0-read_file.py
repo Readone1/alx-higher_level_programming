@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""read_file
-"""
+'''A module containing IO functions.
+'''
 
 
 def read_file(filename=""):
-"""Takes in str filename to read it
-"""
+'''Reads a UTF-8 encoded text file and prints it to stdout.
 
-with open(filename, encoding="utf-8") as readFile:
-print(readFile.read(), end='')
+Args:
+filename (str): The name of the file to read.
+'''
+with open(filename, encoding='utf-8') as file:
+for line in file.readlines():
+print(line, end='')
