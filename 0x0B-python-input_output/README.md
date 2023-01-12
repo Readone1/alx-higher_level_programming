@@ -72,4 +72,4 @@ Technical interview preparation:
 
 Author
 
-Derrick Gee - kai-dg
+Derrick Gee - Readone
