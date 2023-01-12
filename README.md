@@ -1,167 +1,45 @@
-# 0x0B. Python - Input/Output
+Holberton School High-level Programming 💻
 
+Description
 
+Holberton's curriculum for high-level programming. These projects are meant to help us learn how to use and apply the basic fundamental concepts from low-level programming on a different programming language.
 
-## Description
 
-What you should learn from this project:
 
+Table of Contents 📂
 
+0x00. Python - Hello, World
 
-Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+0x01. Python - if/else, loops, functions
 
-How to open a file
+0x02. Python - import & modules
 
-How to write text in a file
+0x03. Python - Data Structures: Lists, Tuples
 
-How to read the full content of a file 
+0x04. Python - More Data Structures: Set, Dictionary
 
-How to read a file line by line
+0x05. Python - Exceptions
 
-How to move the cursor in a file
+0x06. Python - Classes and Objects
 
-How to make sure a file is closed after using it
+0x07. Python - Test-driven development
 
-What is and how to use the with statement
+0x08. Python - More Classes and Objects
 
-What is JSON
+0x09. Python - Everything is object
 
-What is serialization
+0x0A. Python - Inheritance
 
-What is deserialization
+0x0B. Python - Input/Output
 
-How to convert a Python data structure to a JSON string 
+0x0C. Python - Almost a circle
 
-How to convert a JSON string to a Python data structure
+0x0D. SQL - Introduction
 
+0x0E. SQL - More queries
 
+0x0F. Python - Object-relational mapping
 
----
+Author
 
-
-
-### [0. Read file](./0-read_file.py)
-
-* Write a function that reads a text file (UTF8) and prints it to stdout:
-
-
-
-
-
-### [1. Number of lines](./1-number_of_lines.py)
-
-* Write a function that returns the number of lines of a text file:
-
-
-
-
-
-### [2. Read n lines](./2-read_lines.py)
-
-* Write a function that reads n lines of a text file (UTF8) and prints it to stdout:
-
-
-
-
-
-### [3. Write to a file](./3-write_file.py)
-
-* Write a function that writes a string to a text file (UTF8) and returns the number of characters written:
-
-
-
-
-
-### [4. Append to a file](./4-append_write.py)
-
-* Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added:
-
-
-
-
-
-### [5. To JSON string](./5-to_json_string.py)
-
-* Write a function that returns the JSON representation of an object (string):
-
-
-
-
-
-### [6. From JSON string to Object](./6-from_json_string.py)
-
-* Write a function that returns an object (Python data structure) represented by a JSON string:
-
-
-
-
-
-### [7. Save Object to a file](./7-save_to_json_file.py)
-
-* Write a function that writes an Object to a text file, using a JSON representation:
-
-
-
-
-
-### [8. Create object from a JSON file](./8-load_from_json_file.py)
-
-* Write a function that creates an Object from a “JSON file”:
-
-
-
-
-
-### [9. Load, add, save](./9-add_item.py)
-
-* Write a script that adds all arguments to a Python list, and then save them to a file:
-
-
-
-
-
-### [10. Class to JSON](./10-class_to_json.py)
-
-* Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
-
-
-
-
-
-### [11. Student to JSON](./11-student.py)
-
-* Write a class Student that defines a student by:
-
-
-
-
-
-### [12. Student to JSON with filter](./12-student.py)
-
-* Write a class Student that defines a student by: (based on 11-student.py)
-
-
-
-
-
-### [13. Student to disk and reload](./13-student.py)
-
-* Write a class Student that defines a student by: (based on 12-student.py)
-
-
-
-
-
-### [14. Pascal's Triangle](./14-pascal_triangle.py)
-
-* Technical interview preparation: 
-
-
-
----
-
-
-
-## Author
-
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+Derrick Gee -Readone
